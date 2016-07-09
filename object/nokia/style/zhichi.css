@@ -1,0 +1,75 @@
+/* CSS Document */
+
+.nav .zhichi{color:#124191; text-decoration:none; background-color:#fff; }
+
+.modle{ width:1152px; overflow: hidden; font-family:"微软雅黑";margin-top:32px; background-color:#fff}
+.modle_so{ height:143px; font-size:20px; line-height:143px; text-align:center;color:#3c3c3c; border-bottom:1px solid #F2F2F2}
+.modle_ck{ height:28px; padding-top:10px; border-bottom:1px solid #F2F2F2}
+.modle_list{ height:409px; border-bottom:1px solid #F2F2F2}
+.modle_more{ height:46px;}
+
+.modle_so input{ border:1px solid #ccc; color:#124191;font-family:"微软雅黑"; font-size:14px; font-weight:bold; width:209px; height:48px; text-indent:1em; margin-left:44px}
+.modle_ck a{ line-height:20px; padding-left:16px; display:block;  overflow:hidden; float:left }
+.modle_ck a img { float:left; }
+.modle_ck a span{ float:left ; text-indent:0.5em}
+.modle_ck .modle_ck_l{ float:right; padding-right:20px; font-size:14px}
+.modle_list{overflow:hidden}
+.modle_list a{ width:85px; height:162px; overflow:hidden; float:left;   display:block; margin:22px 45px 22px 32px}
+.modle_list_img{ width:58px; height:125px; margin:0 auto;background:url(../image/920-spec-front-new-png.png) no-repeat  center top; }
+.modle_list_img2{ background:url(../image/CN-ncom-lumia-900-white-front-png.png) no-repeat center top}
+.modle_list_img3{ background:url(../image/CN-Sabre-black-cyan-Front-png.png) no-repeat center top}
+.modle_list_img4{ background:url(../image/820-front-png.png) no-repeat center top}
+.modle_list p{ width:85px; font-size:14px;text-align:center;}
+.modle_more{ text-align:center; line-height:46px; }
+.modle_more{ font-size:14px}
+
+
+.con{ width:100%; margin:26px 0; overflow:hidden}
+.con_cp{ display:block; width:568px; height:300px; float:left; margin:0 16px 16px 0 ;overflow:hidden; }
+.con_cpimg{background:url(../image/B1-2000x1000-banner140401-jpg.jpg) no-repeat bottom center #fff}
+
+.con_cp:hover h6,.con_cp:hover h5{color:#77b8cb}
+.con_cp h6{ margin:15px 0 0 9px;}
+.con_cp h5{ margin-left:9px; font-size:18px; }
+.con_cpimg2{ background:url(../image/Nokia-lumia-1520-1020-925-jpg.jpg) no-repeat bottom center #fff}
+.nomargin{ margin-right:0}
+
+
+.more{ width:100%; height:89px; margin-bottom:36px; background-color:#333333}
+.more_m{ width:1152px; height:89px;margin:16px auto;}
+.more_m img{ margin:-26px 16px 0; float:left}
+.more_m p{ font-size:20px ; float:left; font-weight:600; color:#fff; padding-top:21px}
+.more_m p a{ font-size:18px; color:#6782D0; font-weight:normal}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

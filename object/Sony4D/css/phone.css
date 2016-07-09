@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+.LL-tv01{
+	width:100%;
+}
+.LLpage1-d{
+	padding:12% 0 0;
+}
+.det-l{
+	width:100%;
+	margin-bottom:5%;
+}
+.LL-tv02{
+	width:50%;
+	padding:0;
+}
+.L2-t-L{
+	width:50%;
+}
+.L2-t-M{
+	width:50%;
+}
+.L2-t-R{
+	width:100%;
+	margin-top:7%;
+}
+.L2-tM-p{
+	left:5%;
+	bottom:-15%;
+}
+.L2-m-R{
+	float:left;
+}
+.L2-m-L{
+  	width:100%;
+}
+.L2-m-R{
+  	width:100%;
+}
+/*上图下文板式替换开始*/
+.LLpage2-m{
+	display:none;
+}
+.phone-LLpage2-m{
+	display:block;
+}
+/*上图下文板式替换结束*/
+.L2-b-L{
+  	width:100%;
+}
+.LL-tv03-box{
+	margin:0 auto;
+	width:50%;
+}
+.LL-tv03{
+	width:100%;
+}
+.ayst{
+	width:100%;
+}
+.LLwrap{	
+	background:none;
+}
+.LLpage1{
+	background:#99e7e8;
+}
+.LLpage2{
+  	background:none;
+}
+.LLpage3{
+	background:#b0d2db;
+	padding:8% 12% 20%;
+}
+/*sony头部尾部手机端*/
+.w960 .logo1{
+	margin: 8px 10%;
+}
+.w960 .logo1 img{
+	width:62.5px;
+	height:8.5px;
+}
+.LLpage3-b{
+	margin-bottom:60%;
+}
+.footer .mon{
+	clear:both;
+}
+.footer .shouji-ts{
+	float:left;
+	margin-bottom:5px;
+}
+.foot-lasta{
+	margin-bottom:5px;
+}
+

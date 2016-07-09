@@ -1,0 +1,1180 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*====================代码重置====================*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, section, article, aside, header, footer, nav, dialog, figure, hgroup {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+*{border-style:none; outline:none;}
+table {
+	border-collapse: collapse;/*为表格设置合并边框模型*/
+	border-spacing: 0;
+}
+textarea {
+	resize: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+ul, ol, li {
+	list-style: none;
+}
+em, i {
+	font-style: normal;
+}
+img {
+	width: 100%;
+	border-style:none; 
+}
+input, img {
+	vertical-align: middle;
+}
+a {
+	color: #333;
+	text-decoration: none;
+	border: 0;
+	outline: none;
+}
+input:focus, a:focus {
+	outline: none;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+body {
+	font-size:1em; font-family: "Microsoft Yahei",Helvetica,STHeiTi,sans-serif;color:#3f3a39;
+}
+/*==============网页主体开始==============*/
+.black {
+	background: #000;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	opacity: 0.9;
+	display: none;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+.section {
+	position: relative;
+	box-sizing: border-box;
+	display: table;
+	width: 100%;
+	height:100%;
+}
+.section-in {
+	vertical-align: bottom;
+	display: table-cell;
+	height:100%;
+}
+.arrow {
+	width: 12%;
+	position: absolute;
+	bottom: 0;
+	left: 44%;
+	border: 0;
+	outline: none;
+	z-index: 600;
+	display:none;
+}
+.close {
+	position: absolute;
+	width: 35px;
+	right: -44px;
+	top: -36px;
+	cursor: pointer;
+}
+/*=======第一屏幕=======*/
+.section1 {
+	background: url(../images/one_px.png) repeat-y 50% 50%;
+	background-size: contain;
+}
+.section1 .bg {
+	width: 100%;
+	height:100%;
+	position: relative;
+	background:url(../images/page01_bg.png) left bottom no-repeat;
+	background-size:100% auto;
+}
+.section1 .shijian {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	text-indent: -999em;
+	z-index:500;
+	background: url(about:blank);
+}
+.section1 .shaonao {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	text-indent: -999em;
+	z-index:500;
+	background: url(about:blank);
+}
+.section1 .logo {
+	position: absolute;
+	width: 40%;
+	left: 50%;
+	margin-left: -19.8%;
+	top: 50%;
+	margin-top: -20%;
+	z-index: 800;
+}
+.section1 .duijiao {
+	width: 40%;
+	height: 10%;
+	position: absolute;
+	left:30%;
+	bottom: 18%;
+	text-indent: -999em;
+	background: url(about:blank);
+}
+/*=======第二屏幕=======*/
+.section2 {
+	background: #a6dcfe;
+}
+.section2 .bg {
+	width: 100%;
+	height:100%;
+	position: relative;
+	background:url(../images/page02_bg.png) left bottom no-repeat;
+	background-size:100% auto;
+}
+.section2 .su-vs {
+	position: absolute;
+	width: 24%;
+	left: 36%;
+	top:20%;
+	z-index:500;
+	display:none;
+}
+.section2 .nomove .su-vs {
+	top:20%;
+	display:block;
+}
+.section2 .su-cha {
+	position: absolute;
+	width: 32%;
+	top: 20%;
+	z-index:500;
+	display:none;
+	left:-35%;
+}
+.section2 .nomove .su-cha {
+	display: block;
+	left: 6%;
+}
+.section2 .su-hao {
+	position: absolute;
+	width: 68%;
+	top: 6%;
+	z-index:500;
+	display:none;
+	right:-60%;
+}
+.section2 .nomove .su-hao {
+	display: block;
+	right: 2%;
+}
+.section2 .s-h-btn {
+	width: 49%;
+	height: 44%;
+	position: absolute;
+	left: 47%;
+	top: 2%;
+	text-indent: -999em;
+	cursor: pointer;
+	background: url(about:blank);
+}
+.s-big {
+	width: 56%;
+	position: fixed;
+	left: 22%;
+	top: 10%;
+	z-index: 1001;
+	display: none;
+}
+.phone .s-big {
+	width: 80%;
+	left:6%;
+	top:30%;
+}
+
+/*=======第三屏幕=======*/
+.section3 {
+	background: #ebf4f8;
+}
+.section3 .bg {
+	width: 100%;
+	height:100%;
+	position: relative;
+	background:url(../images/page03_bg.png) left bottom no-repeat;
+	background-size:100% auto;
+}
+.section3 .cheng-vs {
+	position: absolute;
+	width: 24%;
+	left: 31%;
+	top:7%;
+	z-index:500;
+	display:none;
+}
+.section3 .nomve .cheng-vs {
+	display: block;
+	top: 7%;
+}
+.section3 .cheng-cha {
+	position: absolute;
+	width: 35%;
+	top: 7%;
+	z-index:500;
+	display:none;
+	left:-35%;
+}
+.section3 .nomve .cheng-cha {
+	display: block;
+	left: 4%;
+}
+.section3 .cheng-hao {
+	position: absolute;
+	width: 52%;
+	bottom: 0;
+	z-index:500;
+	display:none;
+	right:-60%;
+}
+.section3 .nomve .cheng-hao {
+	display: block;
+	right: 0%;
+}
+.section3 .cheng-h-btn {
+	width: 74%;
+	height: 66%;
+	position: absolute;
+	left: 11%;
+	top: 1%;
+	text-indent: -999em;
+	cursor: pointer;
+	background: url(about:blank);
+}
+.lunbo01 { 
+	position: fixed;
+	z-index:1005;
+	left:20%;
+	top:10%;
+	display:none;
+	width:60%;
+}
+.phone .lunbo01 { 
+	left:6%;
+	top:30%;
+	width:80%;
+}
+.lunbo01 .arrow-left {
+	position: absolute;
+	left: -10%;
+	top: 42%;
+	width: 4%;
+}
+.phone .lunbo01 .arrow-left {
+	display:none;
+}
+.lunbo01 .arrow-right {
+	position: absolute;
+	right: -10%;
+	top: 42%;
+	width: 4%;
+}
+.phone .lunbo01 .arrow-right {
+	display:none;
+}
+.swiper-container {
+}
+.pagination {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background:url(../images/dian.png);
+  margin: 0 5px;
+  cursor: pointer;
+  padding-top:8px;
+}
+.swiper-active-switch {
+  background:url(../images/cur_dian.png);
+}
+/*=======第四屏幕=======*/
+.section4 {
+	background: #85dfff;
+}
+.section4 .bg {
+	width: 100%;
+	height:100%;
+	position: relative;
+	background:url(../images/page04_bg.png) left bottom no-repeat;
+	background-size:100% auto;
+}
+.section4 .gan-vs {
+	position: absolute;
+	width: 24%;
+	left: 31%;
+	top: 9%;
+	z-index:500;
+	display:none;
+}
+.section4 .nomove .gan-vs {
+	display: block;
+	top: 9%;
+}
+.section4 .gan-cha {
+	position: absolute;
+	width: 33%;
+	top: 20%;
+	z-index:500;
+	display:none;
+	left:-35%;
+}
+.section4 .nomove .gan-cha {
+	display: block;
+	left: 4%;
+}
+.section4 .gan-hao {
+	position: absolute;
+	width: 59%;
+	bottom: 0;
+	z-index:500;
+	display:none;
+	right:-60%;
+}
+.section4 .nomove .gan-hao {
+	display: block;
+	right: 8%;
+}
+.section4 .gan-h-btn {
+	width: 49%;
+	height: 44%;
+	position: absolute;
+	left: 47%;
+	top: 2%;
+	text-indent: -999em;
+	cursor: pointer;
+	background: url(about:blank);
+}
+.gan-big {
+	width: 56%;
+	position: fixed;
+	left: 22%;
+	top: 10%;
+	z-index: 1001;
+	display: none;
+}
+.phone .gan-big {
+	width: 80%;
+	left:6%;
+	top:30%;
+}
+/*=======第五屏幕=======*/
+.section5 {
+	background: #f9f3f7;
+}
+.section5 .bg {
+	width: 100%;
+	height:100%;
+	position: relative;
+	background:url(../images/page05_bg.png) left bottom no-repeat;
+	background-size:100% auto;
+}
+.section5 .xiao-vs {
+	position: absolute;
+	width: 24%;
+	left: 31%;
+	top: 13%;
+	z-index:500;
+	display:none;
+}
+.section5 .nomove .xiao-vs {
+	display: block;
+	top: 13%;
+}
+.section5 .xiao-cha {
+	position: absolute;
+	width: 34%;
+	top: 24%;
+	z-index:500;
+	display:none;
+	left:-35%;
+}
+.section5 .nomove .xiao-cha {
+	display: block;
+	left: 9%;
+}
+.section5 .xiao-hao {
+	position: absolute;
+	width: 47%;
+	bottom: 0;
+	z-index:500;
+	background: url(about:blank);
+	display:none;
+	right:-45%;
+}
+.section5 .nomove .xiao-hao {
+	display: block;
+	right: 3%;
+}
+.section5 .xiao-h-btn {
+	width: 93%;
+	height: 44%;
+	position: absolute;
+	left: 6%;
+	top: 0%;
+	text-indent: -999em;
+	cursor: pointer;
+	background: url(about:blank);
+}
+.close {
+	position: absolute;
+	width: 35px;
+	right: -44px;
+	top: -22px;
+	cursor: pointer;
+}
+.lunbo02 { 
+	position: fixed;
+	z-index:1005;
+	left:20%;
+	top:10%;
+	display:none;
+	width:60%;
+}
+.phone .lunbo02 { 
+	left:6%;
+	top:30%;
+	width:80%;
+}
+.lunbo02 .arrow-left02 {
+	position: absolute;
+	left: -10%;
+	top: 42%;
+	width: 4%;
+}
+.phone .lunbo02 .arrow-left02 {
+	display:none;
+}
+.lunbo02 .arrow-right02 {
+	position: absolute;
+	right: -10%;
+	top: 42%;
+	width: 4%;
+}
+.phone .lunbo02 .arrow-right02 {
+	display:none;
+}
+.swiper-container02 {
+}
+.pagination02 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background:url(../images/dian.png);
+  margin: 0 5px;
+  cursor: pointer;
+  padding-top:8px;
+}
+.swiper-active-switch {
+  background:url(../images/cur_dian.png);
+}
+/*=======第六屏幕=======*/
+.section6 {
+	background: #28c0cd;
+}
+.section6 .bg {
+	width: 100%;
+	height:100%;
+	position: relative;
+	background:url(../images/page06_bg.png) left bottom no-repeat;
+	background-size:100% auto;
+}
+.section6 .photo {
+	width: 80%;
+	margin: 0 auto;
+	position: absolute;
+	box-sizing: border-box;
+	top: 20%;
+	top: 16%\9;
+	left: 11%;
+}
+.section6 .photo li {
+	float: left;
+	box-sizing: border-box;
+	cursor: pointer;
+	width: 31.333%;
+	margin-right: 2%;
+	margin-bottom: 1%;
+}
+.photo-lunbo { 
+	position: fixed;
+	z-index:1005;
+	left:20%;
+	top:10%;
+	display:none;
+	width:60%;
+}
+.phone .photo-lunbo { 
+	left:6%;
+	top:30%;
+	width:80%;
+}
+.photo-lunbo .arrow-left04 {
+	position: absolute;
+	left: -10%;
+	top: 42%;
+	width: 4%;
+}
+.phone .photo-lunbo .arrow-left04 {
+	display:none;
+}
+.photo-lunbo .arrow-right04 {
+	position: absolute;
+	right: -10%;
+	top: 42%;
+	width: 4%;
+}
+.phone .photo-lunbo .arrow-right04 {
+	display:none;
+}
+.swiper-container04 {
+}
+.pagination04 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background:url(../images/dian.png);
+  margin: 0 5px;
+  cursor: pointer;
+  padding-top:8px;
+}
+.swiper-active-switch {
+  background:url(../images/cur_dian.png);
+}
+
+/*=======第七屏幕=======*/
+.section7 {
+	background: #28c0cd;
+}
+.section7 .bg {
+	width: 100%;
+	height:100%;
+	position: relative;
+	background:url(../images/page07_bg.png) left bottom no-repeat;
+	background-size:100% auto;
+}
+.shipin {
+	width: 80%;
+	margin: 0 auto;
+	position: absolute;
+	box-sizing: border-box;
+	top: 18%;
+	left: 11%;
+}
+.shipin li {
+	float: left;
+	box-sizing: border-box;
+	cursor: pointer;
+	width: 27.333%;
+	margin-right: 6%;
+}
+.shipin p {
+	text-align: center;
+	line-height: 2em;
+	color: #504c4c;
+	font-size: 1em;
+	font-weight: bold;
+}
+.shipin-01{
+	width:60%;
+	position:fixed;
+	left:20%;
+	top:10%;
+	z-index:1005;
+	display:none;
+}
+.phone .shipin-01{
+	left:6%;
+	top:30%;
+	width:80%;
+}
+.shipin-02{
+	width:60%;
+	position:fixed;
+	left:20%;
+	top:10%;
+	z-index:1005;
+	display:none;
+}
+.phone .shipin-02{
+	left:6%;
+	top:30%;
+	width:80%;
+}
+.shipin-03{
+	width:60%;
+	position:fixed;
+	left:20%;
+	top:10%;
+	z-index:1005;
+	display:none;
+}
+.phone .shipin-03{
+	left:6%;
+	top:30%;
+	width:80%;
+}
+
+/* 右侧导航 */
+#fullPage-nav {
+	_display: none;
+	font-size: 12px;
+}
+#fullPage-nav li {
+	width: 22px;
+	height: 21px;
+	margin: 10px 0 0;
+	vertical-align: middle;
+}
+#fullPage-nav li a {
+	float: right;
+	width: 21px;
+	height: 21px;
+	color: #fff;
+	text-decoration: none;
+	text-align: right;
+	background:url(../images/nav01.png) 5px 5px no-repeat;
+}
+#fullPage-nav li .active {
+	background:url(../images/nav02.png) 5px 5px no-repeat;
+}
+#fullPage-nav span{
+	display: none;
+}
+.fullPage-tooltip {
+	float: left;
+	top: 0;
+	margin-right: 5px;
+	font: 12px "Microsoft Yahei";
+	color: #000;
+	line-height: 21px;
+}
+*{box-sizing:border-box;}
+.fr{float:right;}
+.fl{float:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.ma{margin:0 auto;}
+.topic{
+	font-size:2.375em;
+	font-size:2em\9;
+	font-weight:500;
+}
+.yw{
+	color:#f9ad3d; 
+	vertical-align:middle;
+}
+.car{
+	font-size:2em;
+	color:#7bb9ba;
+}
+.f13{font-size:0.8125em;}
+.f28{font-size:1.75em; font-weight:500;}
+.c7{font-weight:bold;}
+.f23{font-size:1.4375em; color:#7bb9ba;}
+.f24{font-size:1.5em; font-weight:500;}
+.f10{font-size:0.625em;}
+.f20{font-size:1.25em; font-size:1em\9}
+.f18{font-size:1.125em;}
+.lh20{line-height:20px;}
+.pt5{padding-top:5px;}
+/*=============理论page01开始=============*/
+.LLwrap{
+  	width:100%;
+	position:relative;
+}
+.LLpage1{
+	margin-bottom:5%;
+	background:url(../images/llbg01-n.jpg) no-repeat left top;
+	background-size:100% auto;
+}
+.LLpage1-t{
+	padding:4% 0 0;
+	width:80%;
+}
+.LL-tv01{
+	width:62%;
+	padding:2% 0 0;
+	position:relative;
+}
+.LL-tv01-in{
+	margin-top:1%;
+	position:absolute;
+	left:0;
+	top:0;
+	padding:11% 0 0;
+	width:100%;
+	height:100%;
+}
+.LL-tv01-con{
+	width:100%;
+	height:77%;
+	padding:1% 5% 1%;
+}
+#video-1{
+	width:92%;
+}
+.LLpage1-d{
+	padding:2% 0 0;
+	width:80%;
+}
+.det-l{
+  	width:43%;
+}
+.det-wz{
+	padding-top:10px;
+}
+.det-wz p{
+	width:83%;
+	line-height:20px;
+	border-left:1px solid #8ed1d2;
+	padding-left:10px;
+}
+.LL-tv02{
+	width:20%;
+	padding:2% 0 0;
+}
+/*=============理论page02开始=============*/
+.LLpage2{
+	width:82.1%;
+	background:url(../images/llbg02.jpg) no-repeat left top;
+	background-size:100% auto;
+}
+.LLpage2-t{
+	padding:5% 0 0;
+}
+.L2-t-L{
+	width:25%;
+}
+.L2-t-L p{
+	padding-top:10px;
+}
+.L2-t-M{
+	width:25%;
+	padding-top:14%;
+	position:relative;
+}
+.L2-t-R{
+	width:50%;
+	padding:4% 8% 5%;
+}
+.L2-m-L{
+	width:50%;
+	padding:5%;
+}
+.L2-m-R{
+	width:50%;
+}
+.L2-b-L{
+	width:50%;
+}
+.L2-tM-p{
+	position:absolute;
+	left:20%;
+	bottom:-8%;
+	padding-top:10px;
+}
+.phone-LLpage2-m{
+	display:none;
+}
+/*=============tv03开始=============*/
+.LL-tv03{
+	width:80%;
+	padding:2% 0 0;
+}
+.LL-tv03-box{
+	width:30%;
+	margin-left: 65%;
+}
+/*=============理论page03开始=============*/
+.LLpage3{
+	width:100%;
+	padding:8% 12% 10%;
+	background:url(../images/llpage03.jpg) no-repeat left top;
+	background-size:100% auto;
+}
+.ayst{
+	width:57%;
+	display:block;
+	padding-top:20%;
+}
+.LLpage3-b{
+	position:relative;
+}
+.tips-dw{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+}
+.tip01{
+	width:30%;
+  	position:absolute;
+	left:9%;
+	top:34%;
+	cursor:pointer;
+}
+.tips-dw img{
+	width:20%;
+}
+.tip02{
+	width:30%;
+  	position:absolute;
+	left:66%;
+	top:19%;
+	cursor:pointer;
+}
+.tip03{
+	width:30%;
+  	position:absolute;
+	left:72%;
+	top:70%;
+	cursor:pointer;
+}
+.tip04{
+	width:30%;
+  	position:absolute;
+	left:4%;
+	top:85%;
+	cursor:pointer;
+}
+.tip05{
+	width:30%;
+  	position:absolute;
+	left:60%;
+	top:90%;
+	cursor:pointer;
+}
+.LLpage3-t{
+position:relative;
+}
+.Lpg3-t-pro{
+  	position:absolute;
+left:24%;
+top:32%;
+width:50%;
+height:50%;
+}
+.pro60{
+width:50%;
+height:100%;
+float:left;
+background: url(about:blank);
+}
+.pro51{
+width:50%;
+height:100%;
+float:right;
+background: url(about:blank);
+}
+/*==============切换icon=================*/
+.st-icon01{
+	display:none;
+	position:fixed;
+	right:0;
+	bottom:2%;
+	z-index:900;
+}
+.st-icon{
+	display:none;
+	position:fixed;
+	left:0;
+	bottom:18%;
+	width:7%;
+	z-index:900;
+}
+
+/*==============TV02放大弹层=================*/
+.LL-black-bg{
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.9;
+	position:fixed;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+	left:0;
+	top:0;
+	display:none;
+	z-index:100;
+}
+.tv-big-in,.tv-big-intv03{
+	width:60%;
+	position:fixed;
+	left:20%;
+	top:20%;
+	z-index:1005;
+	display:none;
+}
+.phone .tv-big-in,.phone .tv-big-intv03{
+	left:6%;
+	top:30%;
+	width:80%;
+}
+.tv02-v-big{
+	width:85%;
+}
+.llclose{
+	position: absolute;
+	width: 35px;
+	right: -44px;
+	top: -22px;
+	cursor: pointer;
+}
+/*==============Tips弹层轮播=================*/
+.tips-big{
+	display:block;
+}
+.tips-in{
+	width:70%;
+	height:60%;
+	position:fixed;
+	left:25%;
+	top:14%;
+	z-index:11;
+	border:1px solid #fff;
+	display:block;
+}
+.tips-box{
+	width:80%;
+	height:100%;
+	position:relative;
+}
+.t-show{
+	width:80%;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+}
+.t-show ul{
+	position:absolute;
+	width:9999px;
+	height:100%;
+}
+.t-show ul li{
+	float:left;
+	height:100%;
+}
+.ar-l{
+	position:absolute;
+	left:-14%;
+	top:40%;
+	width:5%;
+	cursor:pointer;
+}
+.ar-r{
+	position:absolute;
+	left:89%;
+	top:40%;
+	width:5%;
+	cursor:pointer;
+}
+.tips-box ol{
+	position:absolute;
+	left:31%;
+	bottom:-2%;
+}
+.tips-box ol li{
+	width:12px;
+	height:12px;
+	border-radius:50%;
+	float:left;
+	background:#5d5a58;
+	margin-left:13px;
+}
+.tips-box ol li.cur{
+	background:none;
+	border:1px solid #fff;
+}
+.tip-close{
+	position:absolute;
+	right:16%;
+	top:-8%;
+}
+.next-tip{
+  	width:60%;
+	height:10%;
+	position:absolute;
+	left:5%;
+	bottom:23%;
+	z-index:13;
+}
+
+/*问题轮播部分*/
+.LLpage3-b .close {
+	position: absolute;
+	width:5%;
+	right: -5%;
+	top: -8%;
+	cursor: pointer;
+}
+.lunbo03 { 
+	position: fixed;
+	z-index:1005;
+	left:22%;
+	top:20%;
+	display:none;
+	width:51%;
+}
+.lunbo03-next{
+	position: absolute;
+	width: 50%;
+	height: 10%;
+	z-index: 1100;
+	bottom: 22%;
+	left: 13%;
+	cursor:pointer;
+	display:block;
+	background: url(about:blank);
+}
+.lunbo03 .xiaoren{
+	position: absolute;
+	width: 36%;
+	right: -12%;
+	top: 44%;
+	z-index: 1005;
+}
+.phone .lunbo03 { 
+	left:6%;
+	top:30%;
+	width:80%;
+}
+.lunbo03 .arrow-left03 {
+	position: absolute;
+	left: -10%;
+	top: 42%;
+	width: 4%;
+	z-index: 1100;
+}
+.phone .lunbo03 .arrow-left03 {
+	display:none;
+}
+.lunbo03 .arrow-right03 {
+	position: absolute;
+	right: -10%;
+	top: 42%;
+	width: 4%;
+	z-index: 1100;
+}
+.phone .lunbo03 .arrow-right03 {
+	display:none;
+}
+.swiper-container03 {
+}
+.pagination03 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background:url(../images/dian.png);
+  margin: 0 5px;
+  cursor: pointer;
+  padding-top:8px;
+}
+.swiper-active-switch {
+  background:url(../images/cur_dian.png);
+}
+/*sony头部*/
+.w960{ width:100%; position:absolute; left:0; top:0; z-index:2000; background:#000;}
+.w960 .logo1{ float:left; margin:13px 15%;}
+
+/*sony尾部*/
+.footer{ width:100%; padding:1% 15%; font-size:12px; position:absolute; background:#000; left:0; bottom:0;}
+.footer .lk{ display:inline-block; margin-right:20px; color:#fff; text-decoration:none;}
+.footer .cr{ float:right;}
+.footer .mon,.footer .mon a{ margin-top:10px; color:#696969; text-decoration:none;}
+.footer .mon a{ text-decoration:underline;}
+.footer .mon + .mon{ text-align:center;}
+
+/*侧边导航热区*/
+.hotarea{
+	width:auto;
+}
+@media  (max-width:1601px){
+.section2 .su-cha {
+	width:30%;
+}
+.section2 .su-hao {
+	width: 63%;
+}
+.section3 .cheng-cha {
+	width:32%;
+}
+.section3 .cheng-hao {
+	width: 48%;
+}
+.section4 .gan-cha {
+	width:33%;
+}
+.section4 .gan-hao {
+	width:56%;
+	width:50%\9;
+}
+.section5 .xiao-cha {
+	width: 34%;
+}
+.section5 .xiao-hao {
+	width: 47%;
+	width: 42%\9;
+}
+}
+
+.vjs-default-skin .vjs-big-play-button{
+	left:50%;
+	top:50%;
+	margin:-1.3em 0 0 -2em;
+}
+
+
+
+

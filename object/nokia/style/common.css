@@ -1,0 +1,67 @@
+﻿/*css reset*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0; border:0}
+body,button,input,select,textarea{font:12px arial,\5b8b\4f53}
+h1,h2,h3,h4,h5,h6, p{font-size:100%; font-weight:lighter; font-family:微软雅黑;color:#124191}
+address,cite,dfn,em,var{font-style:normal}
+form{display:inline}
+small{font-size:12px}
+ul,ol{list-style:none}
+a{text-decoration:none; color:#124191;font-family:微软雅黑}
+a:hover{ color:#77b8cb; text-decoration:none}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+legend{color:#000}
+fieldset,img{border:0;-ms-interpolation-mode:bicubic}
+button,input,select,textarea{font-size:100%;font-weight:lighter;}
+table{border-collapse:collapse;border-spacing:0}
+img{ display:block}
+
+/*common*/
+.clear{clear:both}
+.clearfix{zoom:1}
+.clearfix:after{content:'\20';display:block;height:0;clear:both}
+body{ background-color:#F2F2F2}
+
+
+/*header开始*/
+
+#header{ width:100%; overflow:hidden; background-color:#124191}
+.header,#body{ width:1152px; overflow:hidden; margin:0 auto}
+.header h1{ float:left}
+.header h1 a{display:inline-block; line-height:48px; height:48px;}
+.header h1 a img{  width:66px; margin-top:18px}
+.nav{ width:410px; float:left}
+.nav a{font-weight:bold; display:inline-block; height:48px; line-height:48px; padding:0 15px ; color:#fff}
+.nav a:hover{color:#124191; text-decoration:none; background-color:#fff; }
+
+.search{ width:auto; height:48px; padding:0 15px; float:right;}
+.search:hover{ background-color:#fff;}
+.bor_bottom{ width:175px; height:25px;  margin-top:10px;border-bottom:1px solid #5175B3; color:#5175B3; background-color:#124191}
+.search:hover .bor_bottom{ background-color:#fff}
+.btnimg{ width:48px;height:48px; float:right; cursor:pointer; background:url(../image/search.png) no-repeat center center;}
+.search:hover .btnimg{ background:url(../image/search_hover.png) no-repeat center center}
+
+#footer{ width:100%; overflow:hidden}
+.footer{ height:54px; background-color:#fff}
+.subnav{ margin-top:1px; height:147px;background-color:#fff}
+.footer p{ width:1152px; margin:0 auto; line-height:52px; font-size:14px;color:#394191}
+.subnav_con{ width:1152px; overflow:hidden; margin:0 auto;padding-top: 31px }
+.subnav_con_l{ overflow:hidden; float:left}
+.subnav_con_l a{ display:inline-block; color:#ccc; overflow:hidden; padding: 0 30px;}
+.subnav_con_l  .nopadding{ padding-left:0}
+.subnav_con_r { float:right; background:url(../image/cn.png) no-repeat center left;}
+.subnav_con_r a { color:#124191}
+.subnav p{width:1152px; margin:22px auto; color:#ccc}
+
+
+
+
+
+
+
+
+
+
+
+
+

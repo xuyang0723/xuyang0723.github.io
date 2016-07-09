@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+#slider{ display: none;}
+.m_l{ width:8px; height:342px; float:left; background:url(../image/bg_ml.png) no-repeat;}
+.m{ width:964px; height:342px; float:left; background:url(../image/bg_m.jpg) repeat-x;}
+.m_m{ width:964px; overflow:hidden}
+.m_r{width: 8px; height:342px; float:right; background:url(../image/bg_mr.png) no-repeat}
+
+.list{ width: 220px; height:77px; float:left; background:url(../image/listbg.gif) no-repeat;margin:10px 28px  0 0}
+.list_p{ height:24px; background:url(../image/num1.jpg) no-repeat; padding-left:35px; margin:5px;  font-size:16px; }
+.list_p a{color:#3b8800;font-family:"方正综艺简体";}
+.list_p2{ width:172px; height:38px; line-height:18px; color:#666; margin-left:38px;}
+.cmargin{ margin-right:0}
+
+.list2{ background:url(../image/num2.jpg) no-repeat}
+.list3{ background:url(../image/num3.jpg) no-repeat}
+.list4{ background:url(../image/num4.jpg) no-repeat}
+
+.about{ height:240px; width:962px; margin-top:12px; overflow:hidden}
+.about1{ width:292px; height:240px; float:left; overflow:hidden; border-right:1px solid #ccc}
+.about_t{margin-top:14px;  height:40px; overflow:hidden; background:url(../image/lvye.jpg) no-repeat; }
+.about_t p{ width:136px; margin-left:64px; float:left; display:inline}
+.about_t span{ display:block; width:130px; height:15px; padding-bottom:10px}
+.about_t a{ display:block; width:46px; height:25px; margin:5px 10px 0 0; float:right; background:url(../image/more.png) no-repeat; display:inline;}
+
+.abou_dl{ width:272px; padding:15px 10px; overflow:hidden}
+.abou_dl dt{  float:left;}
+.abou_dl dd{ width:160px; line-height:23px; margin-left:10px; float:left}
+.abou_dl dd a{ color:#2A8301}
+
+.chanp{ width:393px; padding:0 14px}
+.chanplist { padding:15px 0}
+.chanplist a{ display:block; text-align: center; width:112px; height:125px; float:left; margin-right:25px}
+.chanplist .nomargin{ margin-right:0}
+.chanplist a span{ line-height:30px;  margin-left:0}
+
+.contoct{ width:218px; padding:0 14px; border-right:none}
+.cont { margin-top:16px;}
+.cont p{ line-height:21px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

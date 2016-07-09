@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td ,a{ margin:0; padding:0; }
+body { font:12px "Microsoft YaHei","SimHei"; color:#4C4C4C;}
+fieldset, img { border:0; display:block;}
+ol, ul { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+em { font-style:normal; }
+input, button, select, textarea { outline:none; }/*控制google浏览器取消发光边框*/ 
+textarea { resize:none; }
+a { color:#444444; text-decoration:none; }
+a:hover { color:#004e90; text-decoration:underline; }
+/*top start*/
+.top{ height:82px; background:url(../img/list1_r1_c2.png) repeat-x; border:1px solid #dadada;}
+.topIn{ width:1000px; margin:0 auto; overflow:hidden; _zoom:1;}
+.logo{ width:146px; height:33px; background:url(../img/listlogo.png); margin:29px 0 0 13px; float:left; _display:inline;}
+.logoSeo{ display:block; width:146px; height:33px; text-indent:-9999em;}
+.topR{ width:380px; float:right; margin-top:18px;}
+.help{ float:right; margin-bottom:15px;}
+.help a{ padding:0 7px 0 13px; background:url(../img/list1_r3_c12.png) no-repeat left center;}
+.help .book{ background:url(../img/list1_r2_c10.png) no-repeat left center;padding:0 7px 0 20px;}
+.search{ width:170px; height:23px;float:right; position:relative;}
+.searchT{width:125px; height:21px; line-height:21px; padding:0 25px 0 10px; background:url(../img/list1search_bg.png) repeat-x; border:1px solid #c2c2c2; border-radius:5px; float:right;}
+.searchBtn{ width:13px; height:13px; background:url(../img/list1search_btn.jpg) no-repeat; position:absolute; right:5px; bottom:5px;_bottom:0px;}
+/*top end*/
+.nav{ width:100%; height:31px; background:url(../img/list1navbg.png) repeat-x;}
+.navIn{ width:1000px;margin:0 auto; overflow:hidden; _zoom:1;}
+.navT{ width:1050px;margin:0 auto; overflow:hidden; _zoom:1;}
+.navIn li{ float:left;}
+.navIn .navLink{ display:block; width:146px; font:15px "Microsoft YaHei"; line-height:31px; letter-spacing:1px; text-align:center;font-weight:bold;  }
+.navIn .navLink:hover,.navIn .currentNav{ background:url(../img/listnavhoverpng.png) no-repeat center 4px; color:#272727; text-decoration:none;}
+
+
+/*footer start*/
+.footer{ width:100%; height:50px; background:#e9e9e9;}
+.footerIn{ width:1000px; margin:0 auto; overflow:hidden; _zoom:1;}
+.frindlink{ line-height:50px; float:left;}
+.frindlink a{ margin:0 6px;}
+.footerIn select{ width:247px; height:20px; float:left; margin-top:15px;}
+.footerR{ white-space:pre; line-height:7px; text-align:right; margin-top:8px; float:right;}
+/*footer end*/

@@ -1,0 +1,493 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>4D对焦 | 索尼官方网站</title>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+<link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/phone.css" type="text/css" media="screen and (max-width:619px)">
+<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script src="js/jquery.lazyload.min.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<link href="video/video-js.css" rel="stylesheet">
+<script src="video/video.js"></script>
+<script id="remove" src="js/jquery.fullPage.min.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+
+<body>
+   <!--弹窗整合-->
+   	<div class="tanchuang phone">
+    	<!--第二屏放大弹窗-->
+        <div class="s-big ">
+            <span class="close"><img src="images/close.png"></span>
+            <img url="images/s_hao_big.jpg">
+        </div>
+        <!--第三屏轮播弹窗-->
+        <div class="lunbo01">
+                    <span class="close"><img src="images/close.png"></span>
+                    <a class="arrow-left" href="#"><img src="images/left.png"></a> 
+                    <a class="arrow-right" href="#"><img src="images/right.png"></a>
+                    <div class="swiper-container">
+                          <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img url="images/cheng_b_01.jpg"></div>
+                                <div class="swiper-slide"><img url="images/cheng_b_02.jpg"></div>
+                                <div class="swiper-slide"><img url="images/cheng_b_03.jpg"></div>
+                                <div class="swiper-slide"><img url="images/cheng_b_04.jpg"></div>
+                                <div class="swiper-slide"><img url="images/cheng_b_05.jpg"></div>
+                                <div class="swiper-slide"><img url="images/cheng_b_06.jpg"></div>
+                                <div class="swiper-slide"><img url="images/cheng_b_07.jpg"></div>
+                                <div class="swiper-slide"><img url="images/cheng_b_08.jpg"></div>
+                                <div class="swiper-slide"><img url="images/cheng_b_09.jpg"></div>
+                                <div class="swiper-slide"><img url="images/cheng_b_10.jpg"></div>
+                                <div class="swiper-slide"><img url="images/cheng_b_11.jpg"></div>
+                                <div class="swiper-slide"><img url="images/cheng_b_12.jpg"></div>
+                          </div>
+                    </div>
+                    <div class="pagination"></div>
+                </div>
+        <!--第四屏放大弹窗-->     
+        <div class="gan-big">
+            <span class="close"><img src="images/close.png"></span>
+            <img url="images/gan_hao_big.jpg">
+        </div>
+        <!--第五屏轮播弹窗-->
+        <div class="lunbo02">
+                    <span class="close"><img src="images/close.png"></span>
+                    <a class="arrow-left02" href="#"><img src="images/left.png"></a> 
+                    <a class="arrow-right02" href="#"><img src="images/right.png"></a>
+                    <div class="swiper-container02">
+                          <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img url="images/xiao_b_01.jpg"></div>
+                                <div class="swiper-slide"><img url="images/xiao_b_02.jpg"></div>
+                                <div class="swiper-slide"> <img url="images/xiao_b_03.jpg"> </div>
+                          </div>
+                    </div>
+                    <div class="pagination02"></div>
+              </div>
+       	
+			<div class="photo-lunbo">
+                <span class="close"><img src="images/close.png"></span>
+                <a class="arrow-left04" href="#"><img src="images/left.png"></a> 
+                <a class="arrow-right04" href="#"><img src="images/right.png"></a>
+                <div class="swiper-container04">
+                      <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img url="images/page06_01_big.jpg"></div>
+                            <div class="swiper-slide"><img url="images/page06_02_big.jpg"></div>
+                            <div class="swiper-slide"><img url="images/page06_03_big.jpg"></div>
+                            <div class="swiper-slide"><img url="images/page06_04_big.jpg"></div>
+                            <div class="swiper-slide"><img url="images/page06_05_big.jpg"></div>
+                            <div class="swiper-slide"><img url="images/page06_06_big.jpg"></div>
+                      </div>
+                </div>
+                <div class="pagination04"></div>
+          </div>
+
+        <div class="shipin-01">
+            <video id="video-4" class="video-js vjs-default-skin">
+            </video>
+            <span class="close"><img src="images/close.png"></span>
+        </div>
+        <div class="shipin-02">
+            <video id="video-5" class="video-js vjs-default-skin">
+            </video>
+            <span class="close"><img src="images/close.png"></span>
+        </div>
+        <div class="shipin-03">
+            <video id="video-6" class="video-js vjs-default-skin">
+            </video>
+            <span class="close"><img src="images/close.png"></span>
+        </div>
+        <!--======TV02放大弹层=========-->
+        <div class="tv-big-in">
+            <video id="video-2" class="video-js vjs-default-skin">
+            </video>
+            <img class="llclose" src="images/llclose.png" alt="">
+    </div>
+    	<!--======TV03放大弹层=========-->
+        <div class="tv-big-intv03">
+            <video id="video-3" class="video-js vjs-default-skin">
+                <source src="" type="video/mp4">
+            </video>
+            <img class="llclose" src="images/llclose.png" alt="">
+        </div>
+        <!--======Tips弹层轮播=========-->
+      <div class="lunbo03">
+      			<a class="lunbo03-next">&nbsp;</a>
+        		<div class="xiaoren"><img src="images/xbs.png"></div>
+                <span class="close"><img src="images/close.png"></span>
+                <a class="arrow-left03" href="#"><img src="images/left.png"></a> 
+                <a class="arrow-right03" href="#"><img src="images/right.png"></a>
+                <div class="swiper-container03">
+                      <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img url="images/tip-t1.jpg"></div>
+                            <div class="swiper-slide"><img url="images/tip-t2.jpg"></div>
+                            <div class="swiper-slide"><img url="images/tip-t3.jpg"></div>
+                            <div class="swiper-slide"><img url="images/tip-t4.jpg"></div>
+                            <div class="swiper-slide"><img url="images/tip-t5.jpg"></div>
+                      </div>
+                </div>
+                <div class="pagination03"></div>
+          </div>
+		  
+		  <!--==============切换icon-LLpage1\page2=================-->
+	<div id="tips-01" class="st-icon">
+    	<img class="hotarea" src="images/sj_tips-icon.png" alt="" width="108" height="248" usemap="#Map">
+        <map name="Map">
+  			<area shape="poly" coords="2,3,106,108,72,145,1,77,2,6" id="gotoone" href="javascript:;">
+            <area shape="poly" coords="0,78,87,164,3,242,2,79" id="gotoeight" href="javascript:;">
+		</map>
+    </div>
+<!--==============切换icon-LLpage3=================-->
+	<div id="tips-02" class="st-icon">
+    	<img class="hotarea" src="images/sj_ll-icon.png" alt="" width="108" height="248" usemap="#Map1">
+        <map name="Map1">
+  			<area shape="poly" coords="2,3,106,108,72,145,1,77,2,6" id="gototwo" href="#">
+            <area shape="poly" coords="0,78,87,164,3,242,2,79" id="gotoeight2" href="#">
+		</map>
+    </div>
+	<!--第一个-->
+	<div id="tips-03" class="st-icon01">
+            	<img class="hotarea" src="images/side_link.png" width="108" height="248" usemap="#Map2">
+                <map name="Map2">
+                  <area shape="poly" coords="104,5,2,108,36,145,107,75,104,8"  id="gotoshaonao"href="javascript:;">
+                  <area shape="poly" coords="21,160,107,78,104,237,22,162" id="gotoshaonao2" href="javascript:;">
+                </map>
+     </div>
+	 
+    </div>
+    <!--======大黑底======-->
+   <div class="black"></div>
+  <div id="mySony">
+   <!--======第一屏幕======-->
+  <div class="section section1 ">
+    <div class="section-in">
+              <!--sony头部-->
+            <div class="w960 fix">
+                <a class="logo1" href="http://www.sonystyle.com.cn" target="_blank"><img src="images/logo_new.jpg" width="125" height="17" alt=""></a>
+            </div>
+    		<!--sony头部-->  
+            <div class="bg">
+                <img class="shouji" src="images/page01_bg.png">
+                <a href="#" class="shijian">实践派</a>
+                <a href="#" class="shaonao">烧脑派</a>
+                <a href="#" class="arrow"><img src="images/arrow.png"></a>
+            </div>
+            <div class="logo">
+                <img src="images/4dlogo.png">
+                <a href="#" class="duijiao">对焦小贴士</a>
+            </div>
+    </div>
+  </div>
+  <!--======第二屏幕======-->
+  <div class="section section2 ">
+      <div class="section-in nomove">
+            <div class="bg">
+            	<img class="shouji"  src="images/page02_bg.png">
+                <div class="su-vs" ><img src="images/sudu.png"></div>
+                <div class="su-cha" ><img src="images/sudu_cha.png"></div>
+                <div class="su-hao">
+                	<div class="s-h-btn">点击图片出大图</div>
+                    <img src="images/sudu_hao.png">
+                </div>
+                <a href="#" class="arrow"><img src="images/arrow.png"></a>
+            </div>
+    </div>
+  </div>
+  <!--======第三屏幕======-->
+  <div class="section section3 ">
+      <div class="section-in nomve phone">
+            <div class="bg">
+                <img class="shouji" src="images/page03_bg.png">
+                <div class="cheng-vs" ><img src="images/chenggong.png"></div>
+                <div class="cheng-cha" ><img src="images/chenggong_cha.png"></div>
+                <div class="cheng-hao">
+                    <div class="cheng-h-btn">点击图片出大图</div>
+                    <img src="images/chenggong_hao.png">
+                </div>
+                <a href="#" class="arrow"><img src="images/arrow.png"></a>
+            </div>
+       </div>
+  </div>
+  <!--======第四屏幕======-->
+  <div class="section section4 ">
+    <div class="section-in nomove phone">
+            <div class="bg">
+                 <img class="shouji" src="images/page04_bg.png">
+                <div class="gan-vs"><img src="images/ganrao.png"></div>
+                <div class="gan-cha"><img src="images/ganrao_cha.png"></div>
+                <div class="gan-hao">
+                	<div class="gan-h-btn">点击图片出大图</div>
+                    <img src="images/ganrao_hao.png">
+                </div>
+                <a href="#" class="arrow"><img src="images/arrow.png"></a>
+            </div>
+    </div>
+  </div>
+  <!--======第五屏幕======-->
+  <div class="section section5 ">
+      <div class="section-in nomove phone">
+            <div class="bg">
+               <img class="shouji" src="images/page05_bg.png">
+                <div class="xiao-vs"><img src="images/xiao.png"></div>
+                <div class="xiao-cha"><img src="images/xiao_cha.png"></div>
+                <div class="xiao-hao">
+                    <div class="xiao-h-btn">点击图片出大图</div>
+                    <img src="images/xiao_hao.png">
+                </div>
+                <a href="#" class="arrow"><img src="images/arrow.png"></a>
+            </div>
+        </div>
+  </div>
+  <!--======第六屏幕======-->
+  <div class="section section6 ">
+      <div class="section-in">
+            <div class="bg">
+            	<img class="shouji" src="images/page06_bg.png">
+                <ul class="photo clearfix">
+                  <li><img src="images/page06_01.jpg"></li>
+                    <li><img src="images/page06_02.jpg"></li>
+                    <li><img src="images/page06_03.jpg"></li>
+                    <li><img src="images/page06_04.jpg"></li>
+                    <li><img src="images/page06_05.jpg"></li>
+                    <li><img src="images/page06_06.jpg"></li>
+                </ul>
+                
+                <a href="#" class="arrow"><img src="images/arrow.png"></a>
+            </div>
+    </div>
+  </div>
+  <!--======第七屏幕======-->
+  <div class="section section7">
+      <div class="section-in">
+            <div class="bg">
+            <img class="shouji" src="images/page07_bg.png">
+                <ul class="shipin clearfix">
+                    <li>
+                        <img src="images/page07_s_01.png">
+                        <p>变色龙篇</p>
+                    </li>
+                    <li>
+                        <img src="images/page07_s_02.png">
+                        <p>宠物狗篇</p>
+                    </li>
+                    <li class="arrow-left03">
+                        <img src="images/page07_s_03.png">
+                        <p>别样婚礼篇</p>
+                    </li>
+                </ul>
+             
+                <a href="#" class="arrow"><img src="images/arrow.png"></a>
+            </div>
+    </div>
+  </div>
+  <!--======第八屏幕======-->
+  <div class="section section8 ">
+  	<div class="scrollable section-in">
+        <div class="LLwrap ma">
+<!--==============理论第一页=================-->
+    <div class="LLpage1">
+        <div class="LLpage1-t tc ma">
+            <h2 class="topic">4D对焦性能比较</h2>
+            <div class="LL-tv01 ma">
+                <img src="images/ll-tv01.png" alt="">
+                <div class="LL-tv01-in">
+                    <p class="car">小汽车篇</p>
+                    <div class="LL-tv01-con">
+                        <video id="video-1" width="100%" height="100%" class="video-js vjs-default-skin" poster="images/car-pic.jpg">
+                        </video>
+                    </div>
+                    <p class="f20">普通微单相机 <span class="topic yw">VS</span> 4D对焦相机</p>
+                </div>
+            </div>
+        </div>
+        <div class="LLpage1-d ma">
+            <ul class="clearfix">
+                <li class="det-l fl">
+                    <img src="images/ll-pg01-img01.jpg" alt="">
+                    <div class="det-wz clearfix">
+                        <span class="f28 fl">详解</span>
+                        <p class="f13 fr">对于移动中的被摄物，与普通微单相机相比，具备4D对焦功能的相机，<span class="c7">可以实现快速精准，且持续稳定的跟踪对焦。</span></p>
+                    </div>
+                </li>
+                <li class="det-l fr">
+                    <img src="images/ll-page01-img02.jpg" alt="">
+                    <div class="det-wz clearfix">
+                        <span class="f28 fl">详解</span>
+                        <p class="f13 fr">宽广的对焦区域、快速精准的对焦和持续稳定的跟焦，4D对焦功能，<span class="c7">提升了相机在拍摄移动物体时的连拍成功率。</span></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="LL-tv02 ma">
+            <img src="images/lltv2.png" alt="">
+        </div>
+    </div>
+<!--==============理论第二页=================-->
+    <div class="LLpage2 ma">
+        <h2 class="topic tc">4D对焦技术详解</h2>
+        <div class="LLpage2-t clearfix">
+            <div class="L2-t-L fl">
+                <img src="images/llpage02-img1.jpg" alt="">
+                <p class="tc">普通单反/单电相机自动对焦点分布</p>
+            </div>
+            <div class="L2-t-M fl">
+                <p class="L2-tM-p">4D对焦相机对焦点分布</p>
+                <img src="images/llpage02-img2.jpg" alt="">
+            </div>
+            <div class="L2-t-R fl">
+                <h3 class="f24">宽广的对焦区域，<br>
+轻松捕捉画面中的移动物体</h3><br>
+                <p class="f13 lh20">179点相位检测自动对焦点几乎覆盖整个取景画面*1 (约92%），即使被摄物在画面（对焦点覆盖范围内）的角落，也可被迅速检测并准确对焦。<br>
+相机通过感知画面中物体的位移，预判物体下一步的位置并对焦，期间所有的对焦点都在工作，以便迅速反应。宽广的覆盖范围，
+大幅的移动也能轻松掌握。</p><br>
+                <p class="f10">*1. ILCE - 6000 &nbsp;ILCE-5100</p>
+            </div>
+        </div>
+        <div class="LLpage2-m clearfix">
+            <div class="L2-m-L fl">
+                <h3 class="f24">快速的对焦响应，<br>
+实现瞬间捕捉被摄物体</h3><br>
+                <p class="f13 lh20">相位检测自动对焦和对比度检测自动对焦相结合的“增强型混合自动对焦”，快速有效地引导镜头对焦被摄主体。配合BIONZ X影像处理器，快速地读取并处理数据，进一步加快了对焦速度，可达到约0.06秒*2。</p><br>
+                <p class="f10">*2 . ILCE - 6000，使用APS-C影像传感器的微单TM数码相机。CIPA方针依据内部的测量方法，使用E PZ 16-50mm F3.5-5.6 OSS镜头并关闭预先AF情况下。2014年2月12日，索尼调查</p>
+            </div>
+            <div class="L2-m-R fr">
+                <img src="images/llpage02-img3.jpg" alt="">
+            </div>
+        </div>
+        <!--phone上图下文版块开始,小于619px时显示-->
+        <div class="phone-LLpage2-m clearfix">
+            <div class="L2-m-R fl">
+                <img src="images/llpage02-img3.jpg" alt="">
+            </div>
+            <div class="L2-m-L fr">
+                <h3 class="f24">快速的对焦响应，<br>
+实现瞬间捕捉被摄物体</h3><br>
+                <p class="f13 lh20">相位检测自动对焦和对比度检测自动对焦相结合的“增强型混合自动对焦”，快速有效地引导镜头对焦被摄主体。配合BIONZ X影像处理器，快速地读取并处理数据，进一步加快了对焦速度，可达到约0.06秒*2。</p><br>
+                <p class="f10">*2 . ILCE - 6000，使用APS-C影像传感器的微单TM数码相机。CIPA方针依据内部的测量方法，使用E PZ 16-50mm F3.5-5.6 OSS镜头并关闭预先AF情况下。2014年2月12日，索尼调查</p>
+            </div>
+        </div>
+        <!--phone上图下文版块结束-->
+        <div class="LLpage2-b clearfix">
+            <div class="L2-b-L fl">
+                <img src="images/llpage02-img4.jpg" alt="">
+            </div>
+            <div class="L2-t-R fr">
+                <h3 class="f24">预测跟踪对焦，<br>
+在空间概念上加上了时间的考量</h3><br>
+                <p class="f13 lh20">传统跟踪对焦在半按快门和按下快门的这段时间里，对焦系统没有继续跟随运动物体。在这段短暂的时间里，对焦平面的位置没有改变，但被摄主体仍在运动。如果它的运动速度较快，而拍摄的景深又比较小的话，照片就容易模糊。这个时候，预测跟焦就开始发挥它的作用了。<br>
+优化的自动对焦算法为目标对象的下一个动作做出快速预测，在按下快门时物体所在的位置准确合焦。AF跟焦性能更强，移动较快的对象也能持续跟焦，助您把握住决定性瞬间。</p>
+            </div>
+        </div>
+        <div class="LL-tv03-box">
+            <div class="LL-tv03">
+                <img src="images/lltv3.png" alt="">
+            </div>
+        </div>
+    </div>
+<!--==============理论第三页=================-->
+    <div class="LLpage3 ma">
+ <div class="LLpage3-t">
+            <img src="images/ll-pg03-img01.png" alt="">
+            <div class="Lpg3-t-pro">
+                <a href="http://www.sonystyle.com.cn/products/nex/ilce_6000.htm" class="pro60"></a>
+                <a href="http://www.sonystyle.com.cn/products/nex/ilce_5100.htm" class="pro51"></a>
+            </div>
+        </div>
+        <div class="LLpage3-b">
+              
+            <img class="ayst ma" src="images/llpage3-img2.png" alt="">
+            <div class="tips-dw f18">
+                <div class="tip01">
+                    <img src="images/tip1.png" alt="">
+                    <p class="pt5">4D对焦与传统单反的伺服<br>
+对焦的主要区别在于？</p>
+                </div>
+                <div class="tip02">
+                    <img src="images/tip2.png" alt="">
+                    <p class="pt5">4D对焦的预测跟焦如何实现？</p>
+                </div>
+                <div class="tip03">
+                    <img src="images/tip3.png" alt="">
+                    <p class="pt5">是否所有对焦模式都支持4D对焦？</p>
+                </div>
+                <div class="tip04">
+                    <img src="images/tip4.png" alt="">
+                    <p class="pt5">使用长焦镜头时，更需要4D对焦？</p>
+                </div>
+                <div class="tip05">
+                    <img src="images/tip5.png" alt="">
+                    <p class="pt5">物体的运动方向影响对焦的难度吗？</p>
+                </div>
+            </div>
+        </div>
+        <!--sony尾部-->
+        <div class="footer">
+        	<p>
+               <a class="lk" href="http://www.sony.com.cn/index.htm?ssid=sstp00465" target="_blank">索尼中国首页</a>
+               <a class="lk" href="http://www.sony.com.cn/products/site_map.htm?ssid=sstp00466" target="_blank">索尼中国网站导航</a>
+               <a class="lk" href="http://www.sony.com.cn/products/contactus.htm?ssid=sstp00467" target="_blank">联系我们</a>
+               <a class="lk" href="http://www.sony.com.cn/products/shengming.htm?ssid=sstp00468" target="_blank">责任声明</a>
+ 				<a class="lk foot-lasta" href="http://www.sony.com.cn/304.htm?ssid=sstp00469" target="_blank">网站所有者信息</a>
+               <span class="cr shouji-ts">2014 索尼（中国）有限公司 版权所有</span>
+            </p>
+            <p class="mon">您访问本网站将会被监控，请点击<a href="http://www.sonystyle.com.cn/280.htm" target="_blank">此处</a>获得详细信息。</p>
+            <p class="mon">京ICP备05036958号</p>
+        </div>
+        <!--sony尾部-->
+    </div>
+    
+</div>
+	</div>
+  </div>
+ </div>
+ 
+   <script language="JavaScript" src="http://www.sonystyle.com.cn/js/s_code.js"></script>
+<script language="JavaScript"><!--
+/* You may give each page an identifying name, server, and channel on the next lines. */
+s.pageName=""
+s.server=""
+s.channel=""
+s.pageType=""
+s.prop1=""
+s.prop2=""
+s.prop3=""
+s.prop4=""
+s.prop5=""
+/* E-commerce Variables */
+s.campaign=""
+s.state=""
+s.zip=""
+s.events=""
+s.products=""
+s.purchaseID=""
+s.eVar1=""
+s.eVar2=""
+s.eVar3=""
+s.eVar4=""
+s.eVar5=""
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+    <script language="JavaScript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'!-'+'-')
+//--></script>
+    <noscript>
+        <a href="http://www.omniture.com" title="Web Analytics">
+            <img src="http://sonychina.112.2o7.net/b/ss/sonycncom/1/H.10--NS/0?[AQB]&cdp=3&[AQE]"
+                height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/-->
+    <!-- End SiteCatalyst code version: H.10. -->
+</body>
+</html>

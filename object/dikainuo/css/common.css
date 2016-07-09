@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*********** CSS 重置********** */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,th,td{padding:0;margin:0; list-style:none;} 
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+body{width:100%;font-size:12px;font-family:"微软雅黑",arial;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;color:#029A9C !important;}
+a,img{border:none;}
+i,b,s{ font-style:normal;}
+/*clearfix清除浮动*/
+.clearfix:after {content: " ";display: block;height: 0;visibility: hidden;clear: both;}
+.clearfix {zoom: 1;}/*照顾ie6、ie7*/
+body{background:#EDEEF0;}
+.fr{ float:right;}
+.fl{ float:left;}
+textarea{ resize:none;}
+
+/*********** header部分开始 ********** */
+.header{ width: 1000px; height: 104px; margin:0 auto;}
+.logo{ width: 236px; height: 62px; float:left; margin-top:20px;}
+.logo a{ height:0; display:block; padding-top:62px; overflow:hidden; background:url(../images/logo.png) no-repeat;}
+.h_con{ float:right; margin-top:28px; width:477px;}
+.h_con .contact{ text-align:right;}
+.h_con .contact a{ color:#666666;}
+.h_con .contact i{ margin:0 3px; color:#666666;}
+.h_con .contact .phone{margin-left:10px;}
+.h_con .contact .phone span{font-weight:bold; font-size:16px; color:#0e9a9d;}
+.h_con .contact .icon{ margin-left:10px;}
+.h_nav{ margin-top:15px;}
+.h_nav li{ float:left; margin-right:42px;}
+.h_nav li.nomagin{ margin-right:0;}
+.h_nav li a{font-weight:bold; font-size:14px; line-height:24px;;color:#303436; display:block; padding-bottom:15px;}
+.h_nav .nav_item_box{ width:100%;background: #3c3f44; position:absolute; left:0; top:104px;display:none; z-index:999;}
+.h_nav .nav_item{width:1000px;margin:0 auto;padding:28px 0; color:#FFF;}
+.h_nav .nav_item li{ float:left; border-right:1px solid #4c4f54; height:122px; margin-right:0;}
+.h_con a.nav_it_title{font-weight:bold; font-size:14px; line-height:24px;color:#FFF; display:inline-block; padding-bottom:0;}
+.h_con .nav_it_con{ line-height:18px;color:#9c9c9c;}
+.h_con .nav_item_icon a{ padding:20px 12px 0; color:#FFF; text-align:center; font-weight:normal;}
+.h_con .nav_item_icon span{ display:block;}
+.h_con .new_box a{ display:inline-block;color:#9c9c9c; padding-bottom:0; font-size:12px; line-height:24px; font-weight:normal;}
+.service{ margin-top:5px;}
+
+/*********** footer部分开始 ********** */
+
+/*footer_con部分*/
+.footer_con_wrap{ width:100%;height:314px; background:#303436;}
+.footer_con{width: 1000px; height:290px; margin:0 auto; padding-top:24px;}
+.footer_con dl{width:88px; padding-right:64px; float:left;}
+.footer_con dl dt{ color:#FFF; font-weight:bold; padding-bottom:10px; border-bottom:1px solid #535353; font-size:15px; margin-bottom:18px;}
+.footer_con dl dd{ line-height:24px;}
+.footer_con dl dd a{ color:#FFF;background:url(../images/xiaodiandian.png) no-repeat 0 center; padding-left:8px; }
+.footer_con dl dd.footer_icon{ padding-top:15px;}
+.footer_con dl dd.footer_icon a{ background:none; padding-left:0;}
+.footer_con dl dd li a{ color:#8b8c8c;background: none;padding-left:8px; }
+/*footer_cop部分*/
+.footer_cop_wrap{width:100%; height: 36px; background: #202528;}
+.footer_cop{width:1000px; height: 36px; margin:0 auto; text-align:center; line-height:36px; color:#8b8c8e;}
+/*footer_link部分*/
+.footer_link_wrap{ width:100%;height: 78px; background:#303436;}
+.footer_link{ width: 1000px; height: 53px; margin:0 auto; padding-top:25px; text-align:center;}
+.footer_link a{ padding:0 10px; color:#FFF;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

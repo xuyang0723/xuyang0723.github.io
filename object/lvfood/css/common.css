@@ -1,0 +1,104 @@
+﻿/*css reset*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body,button,input,select,textarea{font:12px arial,\5b8b\4f53}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:lighter; font-family:微软雅黑;color:#616161}
+address,cite,dfn,em,var{font-style:normal}
+form{display:inline}
+small{font-size:12px}
+ul,ol{list-style:none}
+a{text-decoration:none; color:#616161;font-family:微软雅黑}
+a:hover{ color:#69BA17; text-decoration:underline}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+legend{color:#000}
+fieldset,img{border:0;-ms-interpolation-mode:bicubic}
+button,input,select,textarea{font-size:100%;font-weight:lighter;}
+table{border-collapse:collapse;border-spacing:0}
+img{ display:block}
+
+/*common*/
+.clear{clear:both}
+.clearfix{zoom:1}
+.clearfix:after{content:'\20';display:block;height:0;clear:both}
+body{background:url(../image/Banner.jpg) no-repeat top center #FFF; color:#616161}
+
+
+#head{ height:740px; overflow:hidden;}
+.logo{ width:980px; height:99px; margin:0 auto; padding-top:20px; }
+.media_logo2{display: none;}
+.nav{ width:980px; height:43px; overflow:hidden; background:url(../image/navz.jpg) repeat-x; margin:0 auto}
+.nav a{ display:inline-block; font-weight:bold; height:43px; font-size:14px; line-height:42px; color:#fff; padding:0 25px; float:left}
+.nav a:hover{ color:#fff}
+.nav_l{ background:url(../image/nav_l.jpg) no-repeat}
+.nav span{ display:block; width:2px; height:43px; background:url(../image/nav_shu.jpg) no-repeat; float:left;}
+.nav_r{width:66px; background:url(../image/nav_r.jpg) no-repeat}
+
+
+#body{ width:980px;margin:-170px auto 0; overflow:hidden}
+
+
+.footnav{ width:980px; height:39px; text-align:center; line-height:39px;  background:url(../image/footnavbg.gif) repeat-x; color:#fff;margin:2px auto}
+.footnav a { padding:0 14px 0 17px; color:#fff;}
+.footnav a:hover{ color:#fff}
+
+#footer{ width:100%; height:73px; overflow:hidden; background:url(../image/footbg.gif) repeat-x}
+#footer div{ width:980px; margin:15px auto; line-height:25px;}
+.foot_l{ width:380px; height:35px; float:left;}
+.foot_r{ width:130px; height:55px; float:right; padding-right:20px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

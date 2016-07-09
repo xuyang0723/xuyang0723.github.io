@@ -1,0 +1,50 @@
+/* CSS Document */
+
+.nav .index{color:#124191; text-decoration:none; background-color:#fff;}
+
+#banner{ margin-top:32px; width:1152px; height:576px;overflow:hidden; background-color:#fff}
+#banner:hover{ cursor:pointer}
+#banner:hover h2 ,#banner:hover h3{color:#77b8cb; border-color:#77b8cb }
+.bannerzi { margin:104px 0 0 48px; width:500px; float:left }
+.bannerzi h2{font-size:45px; font-weight:800; padding-bottom:43px; border-bottom:3px solid #124191}
+.bannerzi h3{ font-size:20px; padding-top:40px;}
+.bannerimg{ width:50%; float:left}
+.bannerimg img{ width:600px; }
+
+
+.con{ width:100%; margin-top:16px; overflow:hidden}
+.con_cp{ display:block; width:568px; height:300px; float:left; margin:0 16px 16px 0 ;overflow:hidden; }
+.con_cpimg{background:url(../image/B1-2000x1000-banner140401-jpg.jpg) no-repeat bottom center #fff}
+
+.con_cp:hover h6,.con_cp:hover h5{color:#77b8cb}
+.con_cp h6{ margin:15px 0 0 9px;}
+.con_cp h5{ margin-left:9px; font-size:18px; }
+
+.con_cpimg2{ background:url(../image/Nokia-lumia-1520-1020-925-jpg.jpg) no-repeat bottom center #fff}
+
+.con_2{ width:276px; height:254px;  box-shadow:0 1px 2px #CCC; }
+
+.con2_zi{ height:127px; overflow:hidden}
+.con_2 img{ width:280px; }
+.con_2img{ background-color: #fff}
+
+.con_zx{ background-color:#fff}
+.con_zx_zi{height:60px;}
+.con_zx img{ width:158px; float:left}
+.con_zx p{ float:right; text-align:right; font-size:18px; font-family:"nokia-pure-headline","Segoe UI","微软雅黑","SimHei"; margin:20px 5px 0 0}
+.con_zx p span{ font-size:14px; line-height:35px;}
+.con_zx p strong{ line-height:40px;}
+
+.nomargin{ margin-right:0}
+
+
+
+
+
+
+
+
+
+
+
+

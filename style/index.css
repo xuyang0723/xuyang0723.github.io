@@ -43,7 +43,7 @@ header{width:100%;height: 80px;padding:10px 0;position: fixed;top: 0;z-index:100
 		-moz-animation:piao 9s ease 0s Infinite;
 		-o-animation:piao 9s ease 0s Infinite;
 		-ms-animation:piao 9s ease 0s Infinite;}
-.yun2{position: absolute;top:70px; right: 300px;z-index:85;animation:piao 10s ease 0s Infinite;
+.yun2{position: absolute;top:90px; right: 300px;z-index:85;animation:piao 10s ease 0s Infinite;
 		-webkit-animation:piao 10s ease 0s Infinite;
 		-moz-animation:piao 10s ease 0s Infinite;
 		-o-animation:piao 10s ease 0s Infinite;
@@ -134,51 +134,51 @@ header{width:100%;height: 80px;padding:10px 0;position: fixed;top: 0;z-index:100
 	  }
 	}
 
-.shui1{position: relative;bottom:-203px;z-index:50;margin-left:-1600px;
+.shui1{position: relative;bottom:-203px;z-index:50;margin-left:-1200px;
 		animation: wave 9.11111s 0.1s infinite linear;
 		-webkit-animation: wave 9.11111s 0.1s infinite linear;
 		-moz-animation: wave 9.11111s 0.1s infinite linear;
 		-o-animation: wave 9.11111s 0.1s infinite linear;
 		-ms-animation: wave 9.11111s 0.1s infinite linear;
 }
-.shui2{position: relative;bottom:-100px;z-index:55;margin-left:-1650px;
+.shui2{position: relative;bottom:-100px;z-index:55;margin-left:-1200px;
 		animation: wave 7.11111s 0.1s infinite linear;
 		-webkit-animation: wave 7.11111s 0.1s infinite linear;
 		-moz-animation: wave 7.11111s 0.1s infinite linear;
 		-o-animation: wave 7.11111s 0.1s infinite linear;
 		-ms-animation: wave 7.11111s 0.1s infinite linear;	
 }
-.shui3{position: relative;bottom:20px;z-index:60;margin-left:-1650px;
+.shui3{position: relative;bottom:20px;z-index:60;margin-left:-1300px;
 		animation: wave 6.11111s 0.1s infinite linear;
 		-webkit-animation: wave 6.11111s 0.1s infinite linear;
 		-moz-animation: wave 6.11111s 0.1s infinite linear;
 		-o-animation: wave 6.11111s 0.1s infinite linear;
 		-ms-animation: wave 6.11111s 0.1s infinite linear;
 }
-.shui4{position: relative;bottom:150px;z-index:65;margin-left:-1680px;
-		animation: wave 5.11111s 0.1s infinite linear;
-		-webkit-animation: wave 5.11111s 0.1s infinite linear;
-		-moz-animation: wave 5.11111s 0.1s infinite linear;
-		-o-animation: wave 5.11111s 0.1s infinite linear;
-		-ms-animation: wave 5.11111s 0.1s infinite linear;
+.shui4{position: relative;bottom:150px;z-index:65;margin-left:-1100px;
+		animation: wave 5.21111s 0.2s infinite linear;
+		-webkit-animation: wave 5.21111s 0.3s infinite linear;
+		-moz-animation: wave 5.21111s 0.3s infinite linear;
+		-o-animation: wave 5.21111s 0.3s infinite linear;
+		-ms-animation: wave 5.21111s 0.3s infinite linear;
 }
 	
 	@keyframes wave{
 		0%{
-			transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
-			-webkit-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg); 
-			-moz-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg); 
-			-o-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg); 
-			-ms-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
-			transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);  
+			transform: rotateZ(0deg) translate3d(0,8%,0) rotateZ(0deg);
+			-webkit-transform: rotateZ(0deg) translate3d(0,8%,0) rotateZ(0deg); 
+			-moz-transform: rotateZ(0deg) translate3d(0,8%,0) rotateZ(0deg); 
+			-o-transform: rotateZ(0deg) translate3d(0,8%,0) rotateZ(0deg); 
+			-ms-transform: rotateZ(0deg) translate3d(0,8%,0) rotateZ(0deg);
+			transform: rotateZ(0deg) translate3d(0,8%,0) rotateZ(0deg);  
 
 		}
 		100%{
-			-webkit-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
-			-moz-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg); 
-			-o-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg); 
-			-ms-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg); 
-			transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);  
+			-webkit-transform: rotateZ(360deg) translate3d(0,8%,0) rotateZ(-360deg);
+			-moz-transform: rotateZ(360deg) translate3d(0,8%,0) rotateZ(-360deg); 
+			-o-transform: rotateZ(360deg) translate3d(0,8%,0) rotateZ(-360deg); 
+			-ms-transform: rotateZ(360deg) translate3d(0,8%,0) rotateZ(-360deg); 
+			transform: rotateZ(360deg) translate3d(0,8%,0) rotateZ(-360deg);  
 		}
 	}
 
@@ -260,17 +260,18 @@ header{width:100%;height: 80px;padding:10px 0;position: fixed;top: 0;z-index:100
 	
 
 	#parallax{ position: relative;}
-	.ps,.ai,.fl,.html,.css,.h5,.cs3,.js,.jq{width: 40px; height: 40px;position: absolute; display: block; border:1px solid #f1f1f1; border-radius: 50%; padding:2px;text-align: center;line-height:40px;}
+	.ps,.ai,.fl,.html,.css,.h5,.cs3,.js,.jq{width: 50px; height: 50px;position: absolute; display: block; border:1px solid #f1f1f1; border-radius: 50%; padding:2px;text-align: center;line-height:50px;}
 	#parallax span code{width:100%; height:100%;font-family: "arial","微软雅黑";color:#4CC1E9; font-size:14px; font-weight:bold;border-radius: 50%;display: block;background-color: #f1f1f1}
-	.ps{width:50px; height:50px;line-height:50px;left: 27%;top: 190px}
-	.ai{left: 55%;top: 190px}
-	.fl{left: 83%;top: 210px}
-	.html{width:50px; height:50px;line-height:50px;left: 17%;top: 244px;z-index:54 }
-	.css{left: 37%;top: 264px;z-index:54}
-	.h5{ width:50px; height:50px;line-height:50px;left: 67%;top: 254px;z-index:54}
-	.cs3{width:50px; height:50px;line-height:50px;left: 25%;top: 350px;z-index:56}
-	.js{left: 55%;top: 344px;z-index:56}
-	.jq{width:50px; height:50px;line-height:50px;left: 77%;top: 334px;z-index:56}
+	.ps{width:40px; height:40px;line-height:40px;left: 27%;top: 190px}
+	.ai{width:40px; height:40px;line-height:40px;left: 55%;top: 190px}
+	.fl{width:40px; height:40px;line-height:40px;left: 83%;top: 210px}
+	.html{width:50px; height:50px;line-height:50px;left: 17%;top: 244px;z-index:54; }
+	.css{left: 37%;top: 254px;z-index:54;}
+	#parallax span.h5 code{font-size:12px;}
+	.h5{ width:50px; height:50px;line-height:50px;left: 67%;top: 254px;z-index:54;}
+	.cs3{width:60px; height:60px;line-height:60px;left: 25%;top: 320px;z-index:56;}
+	.js{width:60px; height:60px;line-height:60px;left: 55%;top: 290px;z-index:56;}
+	.jq{width:60px; height:60px;line-height:60px;left: 77%;top: 320px;z-index:56;}
 	.ps,.html,.h5,.cs3,.jq{
 		animation: wave 6.11111s 0.1s infinite linear;
 		-webkit-animation: wave 6.11111s 0.1s infinite linear;
